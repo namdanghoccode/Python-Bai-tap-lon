@@ -1,3 +1,3 @@
 .idea
-csv/all_estimate_transfer_fee.csv
-csv/players_over_900_minutes.csv
+report/results/csv/all_estimate_transfer_fee.csv
+report/results/csv/players_over_900_minutes.csv
