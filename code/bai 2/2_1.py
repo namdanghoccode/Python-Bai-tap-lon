@@ -30,7 +30,7 @@ numeric_columns = [col for col in df_calc.columns if col not in exclude_columns]
 rankings = {}
 
 for col in numeric_columns:
-    # Lấy 3 dòng đầu có giá trị cao nhất trong cột col, kèm theo thông tin của Player và Team.
+    # Lấy 3 dòng đầu có giá trị cao nhất trong cột col, kèm theo thông tin của Player và Team
     top_3_high = df_calc[["Player", "Team", col]].sort_values(by=col, ascending=False).head(3)
 
     # Đổi tên cột hiện tại (ví dụ "Succ%", "Tkld%", v.v.) thành "Value" để dễ xử lý hoặc hiển thị
@@ -39,21 +39,13 @@ for col in numeric_columns:
     # Thêm cột "Rank" với thứ hạng 1–2–3 tương ứng cho 3 dòng top đầu
     top_3_high["Rank"] = ["1st", "2nd", "3rd"]
 
-    # kiểm tra xem tất cả các giá trị trong cột đều bằng 0 và loại bỏ các giá trị NaN
-    if df_calc[col].dropna().eq(0).all():
-        # Lấy 3 dòng đầu có giá trị cao nhất trong cột col, kèm theo thông tin của Player và Team.
-        top_3_low = df_calc[["Player", "Team", col]].sort_values(by=col, ascending=True).head(3)
-    else:
-        # Lọc ra những dòng có giá trị hợp lệ và dương để xét "top thấp nhất không bằng 0"
-        non_zero_df = df_calc[df_calc[col] > 0]
+    # Lấy 3 dòng đầu có giá trị thấp nhất trong cột col, bỏ qua NaN
+    top_3_low = df_calc[["Player", "Team", col]].sort_values(by=col, ascending=True).dropna(subset=[col]).head(3)
 
-        # Lấy 3 dòng đầu có giá trị cao nhất trong cột col, kèm theo thông tin của Player và Team.
-        top_3_low = non_zero_df[["Player", "Team", col]].sort_values(by=col, ascending=True).head(3)
-
-    # Đổi tên cột hiện tại (ví dụ "Succ%", "Tkld%", v.v.) thành "Value" để dễ xử lý hoặc hiển thị
+    # Đổi tên cột hiện tại thành "Value"
     top_3_low = top_3_low.rename(columns={col: "Value"})
 
-    # Thêm cột "Rank" với thứ hạng 1–2–3 tương ứng cho 3 dòng top đầu
+    # Thêm cột "Rank" với thứ hạng 1–2–3 tương ứng cho 3 dòng top thấp
     top_3_low["Rank"] = ["1st", "2nd", "3rd"]
 
     rankings[col] = {

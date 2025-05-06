@@ -20,7 +20,7 @@ Mục đích của file này là lấy ra giá trị chuyển nhượng ước t
 
 
 # Thư mục gốc
-base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 # Đường dẫn đến thư mục csv
 csv_dir = os.path.join(base_dir, "csv")
@@ -82,7 +82,7 @@ try:
     # Duyệt qua từng url
     for url in urls:
         driver.get(url) # Dùng Selenium WebDriver để mở trang web có địa chỉ là url
-        print(f"Scraping: {url}")
+        print(f"Crawling: {url}")
         try:
             # Đợi bảng chuyển nhượng xuất hiện (tối đa 10 giây).
             table = WebDriverWait(driver, 10).until(
@@ -121,7 +121,6 @@ try:
 
                         # Lấy ra vị trí của các cầu thủ dựa vào file result.csv
                         position = player_positions.get(matched_name, "Unknown")
-                        print(f"Match found: {player_name} -> {original_name} (score: {best_match[1]}, Position: {position})")
 
                         # Nếu là thủ môn thì lưu vào danh sách thủ môn
                         if "GK" in position:
@@ -135,8 +134,6 @@ try:
                         # Nếu là thủ môn thì lưu vào danh sách tiền đạo
                         if position.startswith("FW"):
                             data_fw.append([original_name, position, etv])
-                    else:
-                        print(f"No match for: {player_name} (best match: {best_match[0] if best_match else 'None'}, score: {best_match[1] if best_match else 'N/A'})")
         except Exception as e:
             print(f"Error processing {url}: {str(e)}")
 finally:
@@ -152,8 +149,3 @@ if all_data:
     combined_path = os.path.join(csv_dir, "all_estimate_transfer_fee.csv")
     df_all.to_csv(combined_path, index=False)
     print(f"All results saved to '{combined_path}'")
-else:
-    print("No matching players found.")
-
-if not (data_gk or data_df or data_mf or data_fw):
-    print("No matching players found.")

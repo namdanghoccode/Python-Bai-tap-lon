@@ -19,26 +19,21 @@ base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 
 # Hàm để chuyển số tuổi từ dạng "AA-DDD" sang dang float của tuổi
 def convert_age_to_decimal(age_str):
-    try:
-        #Chuyển tuổi sang thành dạng chuỗi với không có dấu cách ở 2 đầu
-        age_str = str(age_str).strip()
+    #Chuyển tuổi sang thành dạng chuỗi với không có dấu cách ở 2 đầu
+    age_str = str(age_str).strip()
 
-        # Tách chuỗi theo dấu gạch ngang
-        if "-" in age_str:
-            # Tách chuỗi thành số năm tuổi và số ngày tuổi
-            years, days = map(int, age_str.split("-"))
+    # Tách chuỗi theo dấu gạch ngang
+    if "-" in age_str:
+        # Tách chuỗi thành số năm tuổi và số ngày tuổi
+        years, days = map(int, age_str.split("-"))
 
-            # Làm tròn số ngày tuổi
-            decimal_age = years + (days / 365)
+        # Làm tròn số ngày tuổi
+        decimal_age = years + (days / 365)
 
-            # Trả về giá trị được làm tròn 2 số của chữ số thập phân
-            return round(decimal_age, 2)
-        # Trả về N/A nếu không tìm thấy
-        return "N/A"
-
-    except (ValueError, AttributeError) as e:
-        print(f"⚠️ Age conversion error for '{age_str}': {e}")
-        return "N/A"
+        # Trả về giá trị được làm tròn 2 số của chữ số thập phân
+        return round(decimal_age, 2)
+    # Trả về N/A nếu không tìm thấy
+    return "N/A"
 
 # DÙng để làm đẹp cột nation.
 def extract_country_code(nation_str):
@@ -144,6 +139,7 @@ column_rename_dict = {
     },
     "stats_keeper": {
         "Unnamed: 1": "Player",
+        "Unnamed: 4": "Team",
         "Performance.1": "GA90",
         "Performance.4": "Save%",
         "Performance.9": "CS%",
@@ -151,6 +147,7 @@ column_rename_dict = {
     },
     "stats_shooting": {
         "Unnamed: 1": "Player",
+        "Unnamed: 4": "Team",
         "Standard.3": "SoT%",
         "Standard.5": "SoT per 90",
         "Standard.6": "G per Sh",
@@ -158,6 +155,7 @@ column_rename_dict = {
     },
     "stats_passing": {
         "Unnamed: 1": "Player",
+        "Unnamed: 4": "Team",
         "Total": "Cmp",
         "Total.2": "Cmp%",
         "Total.3": "TotDist",
@@ -171,11 +169,13 @@ column_rename_dict = {
     },
     "stats_gca": {
         "Unnamed: 1": "Player",
+        "Unnamed: 4": "Team",
         "SCA.1": "SCA90",
         "GCA.1": "GCA90",
     },
     "stats_defense": {
         "Unnamed: 1": "Player",
+        "Unnamed: 4": "Team",
         "Tackles": "Tkl", "Tackles.1": "TklW",
         "Challenges.1": "Deff Att",
         "Challenges.3": "Lost",
@@ -186,6 +186,7 @@ column_rename_dict = {
     },
     "stats_possession": {
         "Unnamed: 1": "Player",
+        "Unnamed: 4": "Team",
         "Touches": "Touches",
         "Touches.1": "Def Pen",
         "Touches.2": "Def 3rd",
@@ -207,6 +208,7 @@ column_rename_dict = {
     },
     "stats_misc": {
         "Unnamed: 1": "Player",
+        "Unnamed: 4": "Team",
         "Performance.3": "Fls",
         "Performance.4": "Fld",
         "Performance.5": "Off",
@@ -241,17 +243,13 @@ for url, table_id in zip(urls, table_ids):
         print(f"Table {table_id} not found!")
         continue
 
-    try:
-        # Chuyển bảng HTML thành DataFrame thông qua Pandas
-        #   - str(table) để chuyển đối tượng table thành dạng chuỗi
-        #   - dùng stringIO để giả lập một file từ chuỗi HTML bên trên vì pd.read_html() mong muốn đọc từ file
-        #   - pd.read_html() dùng để phân tích HTML và tự động tìm bảng và chuyển thành DataFrame
-        #   - dòng đầu tiên trong bảng HTML (chỉ số dòng = 0) sẽ được dùng làm tên cột (header) trong DataFrame
-        #   - vì pd.read_html() trả về một list các DataFrame (vì HTML có thể chứa nhiều bảng), dùng [0] để lấy bảng đầu tiên.
-        df = pd.read_html(StringIO(str(table)), header=0)[0]
-    except Exception as e:
-        print(f"❌ Error reading table {table_id}: {e}")
-        continue
+    # Chuyển bảng HTML thành DataFrame thông qua Pandas
+    #   - str(table) để chuyển đối tượng table thành dạng chuỗi
+    #   - dùng stringIO để giả lập một file từ chuỗi HTML bên trên vì pd.read_html() mong muốn đọc từ file
+    #   - pd.read_html() dùng để phân tích HTML và tự động tìm bảng và chuyển thành DataFrame
+    #   - dòng đầu tiên trong bảng HTML (chỉ số dòng = 0) sẽ được dùng làm tên cột (header) trong DataFrame
+    #   - vì pd.read_html() trả về một list các DataFrame (vì HTML có thể chứa nhiều bảng), dùng [0] để lấy bảng đầu tiên.
+    df = pd.read_html(StringIO(str(table)), header=0)[0]
 
     print(f"Original columns in {table_id}:", df.columns.tolist())
 
@@ -264,14 +262,20 @@ for url, table_id in zip(urls, table_ids):
     #   - df.loc[:, ...] chọn tất cả các hàng (:) và chỉ giữ các cột không bị lặp (tức là False trong mảng duplicated()).
     df = df.loc[:, ~df.columns.duplicated()]
 
-    # Kiểm tra xém có cột tên là Age trong df hay không
+    # Tạo thêm cột PLayer_Team để có thể dựa vào đấy để merge các cột từ các bảng khác nhau
+    df["Player_Team"] = df["Player"].astype(str) + "_" + df["Team"].astype(str)
+
+    #Chuyển đổi age sang giá trị float
     if "Age" in df.columns:
-        #Chuyển đổi age sang giá trị float
         df["Age"] = df["Age"].apply(convert_age_to_decimal)
 
-    print(f"Renamed and cleaned columns in {table_id}:", df.columns.tolist())
+    print(f"Renamed columns in {table_id}:", df.columns.tolist())
 
-    # Gán các cặp {table_id: df} vàp all_tables
+    # Tạo danh sách required_for_table chứa các cột từ required_columns có trong df, đồng thời đảm bảo cột Player_Team được bao gồm
+    required_for_table = [col for col in required_columns if col in df.columns] + ["Player_Team"]
+    # Cập nhật df để chỉ chứa các cột được liệt kê trong required_for_table, loại bỏ tất cả các cột khác
+    df = df[required_for_table]
+    # Lưu DataFrame df đã được làm sạch và lọc vào từ điển all_tables
     all_tables[table_id] = df
 
 """
@@ -283,28 +287,38 @@ merged_df = None
 
 # Duyệt dictionary all_tables
 for table_id, df in all_tables.items():
-    # Lọc DataFrame df để chỉ còn lại các cột có tên được liệt kê trong required_columns
-    df = df[[col for col in df.columns if col in required_columns]]
-
-    # Loại bỏ các cầu thủ bị lặp tên, chỉ giữ lại bản ghi đầu tiên của mỗi cầu thủ.
-    #   - subset=["Player"] chỉ định rằng việc kiểm tra trùng lặp sẽ chỉ dựa vào cột Player
-    #   - keep="first" nghĩa là nếu có nhiều dòng có cùng tên Player, chỉ giữ lại dòng đầu tiên
-    df = df.drop_duplicates(subset=["Player"], keep="first")
-
     # Kiểm tra xem merge_df có phải None hay không
     if merged_df is None:
         # Gán df cho merge_df
         merged_df = df
     else:
-        try:
-            # Hợp nhất hai DataFrame theo tên cầu thủ, yêu cầu rằng mỗi cầu thủ là duy nhất trong cả hai bảng, và giữ lại tất cả cầu thủ có mặt ở ít nhất một trong hai bảng.
-            # - on="Player": gộp hai bảng theo cột chung là "Player".
-            # - how="outer": dùng outer join, nghĩa là giữ lại tất cả cầu thủ từ cả hai bảng — nếu một cầu thủ chỉ xuất hiện ở một bảng thì phần thiếu sẽ là NaN.
-            # - validate="1:1": xác nhận rằng cả hai bảng không có trùng khóa "Player" — mỗi cầu thủ chỉ xuất hiện tối đa một lần ở mỗi bảng. Nếu có trùng, pandas sẽ raise lỗi.
-            merged_df = pd.merge(merged_df, df, on="Player", how="outer", validate="1:1")
-        except Exception as e:
-            print(f"❌ Merge error for {table_id}: {e}")
-            continue
+        # Xác định các hàng có giá trị Player_Team trùng lặp trong merged_df và df để kiểm tra dữ liệu trước khi hợp nhất
+        merged_df_duplicates = merged_df[merged_df['Player_Team'].duplicated(keep=False)]
+        df_duplicates = df[df['Player_Team'].duplicated(keep=False)]
+
+        # Loại bỏ các hàng trùng lặp trong df dựa trên cột Player_Team, giữ lại hàng đầu tiên
+        df = df.drop_duplicates(subset=['Player_Team'], keep='first')
+
+        # Hợp nhất merged_df (DataFrame tổng hợp từ các bảng trước) với df (DataFrame của bảng hiện tại) dựa trên cột Player_Team
+        merged_df = pd.merge(
+            merged_df,
+            df,
+            on=["Player_Team"],
+            how="outer",
+            suffixes=(None, f"_{table_id}")
+        )
+
+        # Xử lý các cột trùng tên (như Player, Team) xuất hiện sau hợp nhất, gộp dữ liệu từ cả hai cột và xóa cột thừa
+        for col in required_columns:
+            if col == "Player_Team":
+                continue
+            col_y = f"{col}_{table_id}"
+            if col in merged_df.columns and col_y in merged_df.columns:
+                merged_df[col] = merged_df[col].combine_first(merged_df[col_y])
+                merged_df = merged_df.drop(columns=[col_y])
+
+# Xóa cột Player_Team
+merged_df = merged_df.drop(columns=["Player_Team"])
 
 # Giữ lại đúng thứ tự và tập hợp các cột mong muốn trong merged_df, loại bỏ những cột không có mặt sau khi merge
 merged_df = merged_df.loc[:, [col for col in required_columns if col in merged_df.columns]]

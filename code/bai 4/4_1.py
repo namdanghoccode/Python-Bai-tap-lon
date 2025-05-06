@@ -35,7 +35,7 @@ print(f"Number of players with more than 900 minutes: {len(df_calc_filtered)}")
 # Ghi danh sách cầu thủ đủ điều kiện ra file CSV mới.
 filtered_path = os.path.join(base_dir, "csv", "players_over_900_minutes.csv")
 df_calc_filtered.to_csv(filtered_path, index=False, encoding='utf-8-sig')
-print(f"Saved filtered players to {filtered_path} with {df_calc_filtered.shape[0]} rows and {df_calc_filtered.shape[1]} columns.")
+print(f"Saved to {filtered_path} with {df_calc_filtered.shape[0]} rows and {df_calc_filtered.shape[1]} columns.")
 
 # Hàm cắt ngắn tên cầu thủ thành 2 từ đầu tiên (để tăng độ chính xác khi so khớp tên)
 def shorten_name(name):
@@ -70,51 +70,48 @@ urls = [f"{base_url}{i}" for i in range(1, 15)]
 # Tạo danh sách rỗng để lưu thông tin cầu thủ khớp
 data = []
 
-try:
-    # Duyệt từng URL trong danh sách
-    for url in urls:
-        driver.get(url) # Dùng Selenium WebDriver để mở trang web có địa chỉ là url
-        print(f"Scraping: {url}")
-        try:
-            # Đợi bảng chuyển nhượng xuất hiện (tối đa 10 giây).
-            table = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "transfer-table"))
-            )
 
-            # Tìm các dòng tr
-            rows = table.find_elements(By.TAG_NAME, "tr")
+# Duyệt từng URL trong danh sách
+for url in urls:
+    driver.get(url) # Dùng Selenium WebDriver để mở trang web có địa chỉ là url
+    print(f"Scraping: {url}")
+    # Đợi bảng chuyển nhượng xuất hiện (tối đa 10 giây).
+    table = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "transfer-table"))
+    )
 
-            # Lặp qua từng dòng trong bảng, tìm các ô (td)
-            for row in rows:
-                cols = row.find_elements(By.TAG_NAME, "td")
+    # Tìm các dòng tr
+    rows = table.find_elements(By.TAG_NAME, "tr")
 
-                # Kiểm tra cols phải có giá trị, độ dài của cols (số phần tử trong danh sách) phải lớn hơn hoặc bằng 2
-                if cols and len(cols) >= 2:
+    # Lặp qua từng dòng trong bảng, tìm các ô (td)
+    for row in rows:
+        cols = row.find_elements(By.TAG_NAME, "td")
 
-                    # Lấy ra tên các cầu thủ
-                    player_name = cols[0].text.strip().split("\n")[0].strip()
+        # Kiểm tra cols phải có giá trị, độ dài của cols (số phần tử trong danh sách) phải lớn hơn hoặc bằng 2
+        if cols and len(cols) >= 2:
 
-                    # Rút gọn tên cầu thủ trong player_name để so sánh với fuzzywuzzy
-                    shortened_player_name = shorten_name(player_name)
+            # Lấy ra tên các cầu thủ
+            player_name = cols[0].text.strip().split("\n")[0].strip()
 
-                    # Tìm ra giá trị chuyển nhượng, nếu không có dữ liệu thì hiện ra "N/A"
-                    tv = cols[-1].text.strip() if len(cols) >= 3 else "N/A"
+            # Rút gọn tên cầu thủ trong player_name để so sánh với fuzzywuzzy
+            shortened_player_name = shorten_name(player_name)
 
-                    # So sánh tên cầu thủ trên website và tên cầu thủ trong danh sách player_names
-                    best_match = process.extractOne(shortened_player_name, player_names, scorer=fuzz.token_sort_ratio)
+            # Tìm ra giá trị chuyển nhượng, nếu không có dữ liệu thì hiện ra "N/A"
+            tv = cols[-1].text.strip() if len(cols) >= 3 else "N/A"
 
-                    # Kiểm tra xem best_match phải có giá tr và giá trị tương đồng phải trên 85
-                    if best_match and best_match[1] >= 85:
-                        # Lấy ra tên cầu thủ khớp nhất
-                        matched_name = best_match[0]
+            # So sánh tên cầu thủ trên website và tên cầu thủ trong danh sách player_names
+            best_match = process.extractOne(shortened_player_name, player_names, scorer=fuzz.token_sort_ratio)
 
-                        # Đẩy vào danh sách data
-                        data.append([player_name, tv])
-        except Exception as e:
-            print(f"Error processing {url}: {str(e)}")
-finally:
-    # Đóng WebDriver
-    driver.quit()
+            # Kiểm tra xem best_match phải có giá tr và giá trị tương đồng phải trên 85
+            if best_match and best_match[1] >= 85:
+                # Lấy ra tên cầu thủ khớp nhất
+                matched_name = best_match[0]
+
+                # Đẩy vào danh sách data
+                data.append([player_name, tv])
+
+# Đóng WebDriver
+driver.quit()
 
 
 # Lưu file tên player_transfer_fee.csv vào thư mục csv

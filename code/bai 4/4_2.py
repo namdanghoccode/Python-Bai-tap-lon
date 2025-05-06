@@ -352,22 +352,10 @@ for position, config in positions_config.items():
 
 # Combine and save results
 if all_results:
-    try:
-        # Nối tất cả DataFrame trong all_results theo chiều dọc thành một DataFrame duy nhất (combined_results)
-        combined_results = pd.concat(all_results, ignore_index=True)
-        # Sắp xếp combined_results theo cột Predicted_Transfer_Value_M (giá trị chuyển nhượng dự đoán, tính bằng triệu euro) theo thứ tự giảm dần (từ cao đến thấp)
-        combined_results = combined_results.sort_values(by='Predicted_Transfer_Value_M', ascending=False)
-        # Lưu combined_results vào file ml_transfer_values_linear.csv trong thư mục được chỉ định bởi csv_dir
-        combined_results.to_csv(os.path.join(csv_dir, 'ml_transfer_values_linear.csv'), index=False)
-        print(f"Các cầu thủ khớp đã được lưu vào '{os.path.join(csv_dir, 'ml_transfer_values_linear.csv')}'")
-    except ValueError as e:
-        print(f"Lỗi khi nối: {e}")
-        print("Các cột trong mỗi DataFrame kết quả:")
-        for i, df in enumerate(all_results):
-            print(f"Cột vị trí {list(positions_config.keys())[i]}: {df.columns.tolist()}")
-
-# In các cầu thủ không còn chơi tại Ngoại Hạng Anh nữa, mặc dù có tên trong result.csv
-if all_unmatched:
-    print("\nDanh sách cầu thủ không khớp:")
-    for position, player in all_unmatched:
-        print(f"Vị trí: {position}, Cầu thủ: {player}")
+    # Nối tất cả DataFrame trong all_results theo chiều dọc thành một DataFrame duy nhất (combined_results)
+    combined_results = pd.concat(all_results, ignore_index=True)
+    # Sắp xếp combined_results theo cột Predicted_Transfer_Value_M (giá trị chuyển nhượng dự đoán, tính bằng triệu euro) theo thứ tự giảm dần (từ cao đến thấp)
+    combined_results = combined_results.sort_values(by='Predicted_Transfer_Value_M', ascending=False)
+    # Lưu combined_results vào file ml_transfer_values_linear.csv trong thư mục được chỉ định bởi csv_dir
+    combined_results.to_csv(os.path.join(csv_dir, 'ml_transfer_values_linear.csv'), index=False)
+    print(f"Giá trị ước tính của các cầu thủ đã được lưu vào '{os.path.join(csv_dir, 'ml_transfer_values_linear.csv')}'")

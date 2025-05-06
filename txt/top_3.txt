@@ -1,0 +1,1080 @@
+
+Statistic: Age
+
+Top 3 Highest:
+Rank           Player     Team  Value
+ 1st Łukasz Fabiański West Ham  40.05
+ 2nd     Ashley Young  Everton  39.82
+ 3rd     James Milner Brighton  39.33
+
+Top 3 Lowest:
+Rank              Player           Team  Value
+ 1st Chidozie Obi-Martin Manchester Utd  17.43
+ 2nd         Mikey Moore      Tottenham  17.73
+ 3rd       Ethan Nwaneri        Arsenal  18.13
+--------------------------------------------------
+
+Statistic: Matches Played
+
+Top 3 Highest:
+Rank          Player        Team  Value
+ 1st Youri Tielemans Aston Villa     35
+ 2nd    Raúl Jiménez      Fulham     35
+ 3rd      Bernd Leno      Fulham     35
+
+Top 3 Lowest:
+Rank        Player           Team  Value
+ 1st  Ayden Heaven Manchester Utd      2
+ 2nd Billy Gilmour       Brighton      2
+ 3rd          Neto    Bournemouth      2
+--------------------------------------------------
+
+Statistic: Starts
+
+Top 3 Highest:
+Rank          Player           Team  Value
+ 1st Youri Tielemans    Aston Villa     35
+ 2nd Virgil van Dijk      Liverpool     35
+ 3rd Tyrick Mitchell Crystal Palace     35
+
+Top 3 Lowest:
+Rank         Player           Team  Value
+ 1st Tyrique George        Chelsea      0
+ 2nd   Ben Chilwell Crystal Palace      0
+ 3rd   Toby Collyer Manchester Utd      0
+--------------------------------------------------
+
+Statistic: Minutes
+
+Top 3 Highest:
+Rank          Player           Team  Value
+ 1st Virgil van Dijk      Liverpool   3150
+ 2nd  Nathan Collins      Brentford   3150
+ 3rd  Dean Henderson Crystal Palace   3150
+
+Top 3 Lowest:
+Rank               Player            Team  Value
+ 1st         Ayden Heaven  Manchester Utd     95
+ 2nd Jahmai Simpson-Pusey Manchester City     96
+ 3rd        Billy Gilmour        Brighton     98
+--------------------------------------------------
+
+Statistic: Gls
+
+Top 3 Highest:
+Rank         Player            Team  Value
+ 1st  Mohamed Salah       Liverpool     28
+ 2nd Alexander Isak   Newcastle Utd     23
+ 3rd Erling Haaland Manchester City     21
+
+Top 3 Lowest:
+Rank         Player            Team  Value
+ 1st İlkay Gündoğan Manchester City      0
+ 2nd         Antony  Manchester Utd      0
+ 3rd Antonín Kinský       Tottenham      0
+--------------------------------------------------
+
+Statistic: Ast
+
+Top 3 Highest:
+Rank        Player          Team  Value
+ 1st Mohamed Salah     Liverpool     18
+ 2nd  Jacob Murphy Newcastle Utd     11
+ 3rd   Bukayo Saka       Arsenal     10
+
+Top 3 Lowest:
+Rank          Player        Team  Value
+ 1st Aaron Cresswell    West Ham      0
+ 2nd  Aaron Ramsdale Southampton      0
+ 3rd     Archie Gray   Tottenham      0
+--------------------------------------------------
+
+Statistic: crdY
+
+Top 3 Highest:
+Rank             Player            Team  Value
+ 1st         Saša Lukić          Fulham     12
+ 2nd Morgan Gibbs-White Nott'ham Forest     11
+ 3rd        Will Hughes  Crystal Palace     11
+
+Top 3 Lowest:
+Rank                Player           Team  Value
+ 1st        Wilson Odobert      Tottenham      0
+ 2nd Abdul Fatawu Issahaku Leicester City      0
+ 3rd   Armel Bella Kotchap    Southampton      0
+--------------------------------------------------
+
+Statistic: crdR
+
+Top 3 Highest:
+Rank             Player           Team  Value
+ 1st      Jack Stephens    Southampton      2
+ 2nd    Bruno Fernandes Manchester Utd      2
+ 3rd Myles Lewis-Skelly        Arsenal      2
+
+Top 3 Lowest:
+Rank          Player        Team  Value
+ 1st Youri Tielemans Aston Villa      0
+ 2nd     Yoane Wissa   Brentford      0
+ 3rd Yerson Mosquera      Wolves      0
+--------------------------------------------------
+
+Statistic: xG
+
+Top 3 Highest:
+Rank         Player            Team  Value
+ 1st  Mohamed Salah       Liverpool   24.0
+ 2nd Erling Haaland Manchester City   20.8
+ 3rd Alexander Isak   Newcastle Utd   19.9
+
+Top 3 Lowest:
+Rank             Player            Team  Value
+ 1st     Aaron Ramsdale     Southampton    0.0
+ 2nd   Łukasz Fabiański        West Ham    0.0
+ 3rd Abdukodir Khusanov Manchester City    0.0
+--------------------------------------------------
+
+Statistic: xAG
+
+Top 3 Highest:
+Rank        Player      Team  Value
+ 1st Mohamed Salah Liverpool   13.2
+ 2nd   Cole Palmer   Chelsea   10.0
+ 3rd Son Heung-min Tottenham    8.2
+
+Top 3 Lowest:
+Rank          Player         Team  Value
+ 1st  Arijanet Muric Ipswich Town    0.0
+ 2nd   Alex McCarthy  Southampton    0.0
+ 3rd Albert Grønbaek  Southampton    0.0
+--------------------------------------------------
+
+Statistic: PrgC
+
+Top 3 Highest:
+Rank        Player            Team  Value
+ 1st   Jeremy Doku Manchester City    189
+ 2nd Mohamed Salah       Liverpool    143
+ 3rd  Noni Madueke         Chelsea    142
+
+Top 3 Lowest:
+Rank           Player        Team  Value
+ 1st   Aaron Ramsdale Southampton      0
+ 2nd Łukasz Fabiański    West Ham      0
+ 3rd  Yerson Mosquera      Wolves      0
+--------------------------------------------------
+
+Statistic: PrgP
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st Bruno Fernandes  Manchester Utd    281
+ 2nd  Joško Gvardiol Manchester City    251
+ 3rd Bruno Guimarães   Newcastle Utd    247
+
+Top 3 Lowest:
+Rank           Player           Team  Value
+ 1st   Aaron Ramsdale    Southampton      0
+ 2nd Łukasz Fabiański       West Ham      0
+ 3rd   Altay Bayındır Manchester Utd      0
+--------------------------------------------------
+
+Statistic: PrgR
+
+Top 3 Highest:
+Rank             Player           Team  Value
+ 1st      Mohamed Salah      Liverpool    440
+ 2nd       Bryan Mbeumo      Brentford    319
+ 3rd Alejandro Garnacho Manchester Utd    281
+
+Top 3 Lowest:
+Rank         Player            Team  Value
+ 1st     Willy Boly Nott'ham Forest      0
+ 2nd Antonín Kinský       Tottenham      0
+ 3rd   Tyrone Mings     Aston Villa      0
+--------------------------------------------------
+
+Statistic: Gls per 90
+
+Top 3 Highest:
+Rank        Player            Team  Value
+ 1st   Jáder Durán     Aston Villa   0.99
+ 2nd Donyell Malen     Aston Villa   0.92
+ 3rd  James Mcatee Manchester City   0.89
+
+Top 3 Lowest:
+Rank        Player         Team  Value
+ 1st   Andy Irving     West Ham    0.0
+ 2nd     Wes Burns Ipswich Town    0.0
+ 3rd Wesley Fofana      Chelsea    0.0
+--------------------------------------------------
+
+Statistic: Ast per 90
+
+Top 3 Highest:
+Rank         Player     Team  Value
+ 1st Tyrique George  Chelsea   0.87
+ 2nd     Danny Ings West Ham   0.63
+ 3rd    Bukayo Saka  Arsenal   0.58
+
+Top 3 Lowest:
+Rank            Player            Team  Value
+ 1st        Willy Boly Nott'ham Forest    0.0
+ 2nd           Willian          Fulham    0.0
+ 3rd William Smallbone     Southampton    0.0
+--------------------------------------------------
+
+Statistic: xG per 90
+
+Top 3 Highest:
+Rank         Player            Team  Value
+ 1st   James Mcatee Manchester City   0.83
+ 2nd Erling Haaland Manchester City   0.76
+ 3rd      Enes Ünal     Bournemouth   0.72
+
+Top 3 Lowest:
+Rank         Player         Team  Value
+ 1st Aaron Ramsdale  Southampton    0.0
+ 2nd    Archie Gray    Tottenham    0.0
+ 3rd Arijanet Muric Ipswich Town    0.0
+--------------------------------------------------
+
+Statistic: xAG per 90
+
+Top 3 Highest:
+Rank          Player        Team  Value
+ 1st  Tyrique George     Chelsea   0.63
+ 2nd Mykhailo Mudryk     Chelsea   0.58
+ 3rd Luis Sinisterra Bournemouth   0.54
+
+Top 3 Lowest:
+Rank           Player           Team  Value
+ 1st Łukasz Fabiański       West Ham    0.0
+ 2nd   Aaron Ramsdale    Southampton    0.0
+ 3rd   Woyo Coulibaly Leicester City    0.0
+--------------------------------------------------
+
+Statistic: GA90
+
+Top 3 Highest:
+Rank           Player           Team  Value
+ 1st   Altay Bayındır Manchester Utd   4.00
+ 2nd       Danny Ward Leicester City   4.00
+ 3rd Christian Walton   Ipswich Town   2.67
+
+Top 3 Lowest:
+Rank       Player      Team  Value
+ 1st Jason Steele  Brighton   0.50
+ 2nd   David Raya   Arsenal   0.89
+ 3rd      Alisson Liverpool   0.92
+--------------------------------------------------
+
+Statistic: Save%
+
+Top 3 Highest:
+Rank         Player        Team  Value
+ 1st           Neto Bournemouth   84.6
+ 2nd   Mark Travers Bournemouth   80.0
+ 3rd Robert Sánchez     Chelsea   76.3
+
+Top 3 Lowest:
+Rank                  Player           Team  Value
+ 1st          Altay Bayındır Manchester Utd   33.3
+ 2nd              Danny Ward Leicester City   40.0
+ 3rd Hákon Rafn Valdimarsson      Brentford   50.0
+--------------------------------------------------
+
+Statistic: CS%
+
+Top 3 Highest:
+Rank                  Player        Team  Value
+ 1st             Robin Olsen Aston Villa  100.0
+ 2nd Hákon Rafn Valdimarsson   Brentford  100.0
+ 3rd            Jason Steele    Brighton   50.0
+
+Top 3 Lowest:
+Rank         Player           Team  Value
+ 1st  Alex McCarthy    Southampton    0.0
+ 2nd    Alex Palmer   Ipswich Town    0.0
+ 3rd Altay Bayındır Manchester Utd    0.0
+--------------------------------------------------
+
+Statistic: PK Save%
+
+Top 3 Highest:
+Rank            Player           Team  Value
+ 1st Caoimhín Kelleher      Liverpool  100.0
+ 2nd   Jordan Pickford        Everton  100.0
+ 3rd    Dean Henderson Crystal Palace   50.0
+
+Top 3 Lowest:
+Rank        Player         Team  Value
+ 1st Alex McCarthy  Southampton    0.0
+ 2nd   Alex Palmer Ipswich Town    0.0
+ 3rd       Alisson    Liverpool    0.0
+--------------------------------------------------
+
+Statistic: SoT%
+
+Top 3 Highest:
+Rank         Player        Team  Value
+ 1st Séamus Coleman     Everton  100.0
+ 2nd    Archie Gray   Tottenham  100.0
+ 3rd    Ryan Fraser Southampton  100.0
+
+Top 3 Lowest:
+Rank          Player      Team  Value
+ 1st Aaron Cresswell  West Ham    0.0
+ 2nd   Billy Gilmour  Brighton    0.0
+ 3rd     Mikey Moore Tottenham    0.0
+--------------------------------------------------
+
+Statistic: SoT per 90
+
+Top 3 Highest:
+Rank          Player        Team  Value
+ 1st    Julio Enciso    Brighton   3.37
+ 2nd   Donyell Malen Aston Villa   2.76
+ 3rd Luis Sinisterra Bournemouth   2.29
+
+Top 3 Lowest:
+Rank           Player        Team  Value
+ 1st  Aaron Cresswell    West Ham    0.0
+ 2nd   Aaron Ramsdale Southampton    0.0
+ 3rd Łukasz Fabiański    West Ham    0.0
+--------------------------------------------------
+
+Statistic: G per Sh
+
+Top 3 Highest:
+Rank             Player            Team  Value
+ 1st        John Stones Manchester City    1.0
+ 2nd Myles Lewis-Skelly         Arsenal    0.5
+ 3rd        Axel Disasi         Chelsea    0.5
+
+Top 3 Lowest:
+Rank          Player            Team  Value
+ 1st Aaron Cresswell        West Ham    0.0
+ 2nd  İlkay Gündoğan Manchester City    0.0
+ 3rd     Álex Moreno Nott'ham Forest    0.0
+--------------------------------------------------
+
+Statistic: Dist
+
+Top 3 Highest:
+Rank           Player            Team  Value
+ 1st  Ibrahim Sangaré Nott'ham Forest   32.0
+ 2nd Emmanuel Agbadou          Wolves   31.8
+ 3rd      Ryan Fraser     Southampton   31.6
+
+Top 3 Lowest:
+Rank         Player            Team  Value
+ 1st Kieran Tierney         Arsenal    2.6
+ 2nd   Harry Clarke    Ipswich Town    4.5
+ 3rd    John Stones Manchester City    5.1
+--------------------------------------------------
+
+Statistic: Cmp
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st Virgil van Dijk       Liverpool   2543
+ 2nd  Joško Gvardiol Manchester City   2321
+ 3rd  William Saliba         Arsenal   2320
+
+Top 3 Lowest:
+Rank          Player           Team  Value
+ 1st   William Osula  Newcastle Utd     11
+ 2nd Albert Grønbaek    Southampton     13
+ 3rd Odsonne Édouard Crystal Palace     17
+--------------------------------------------------
+
+Statistic: Cmp%
+
+Top 3 Highest:
+Rank         Player            Team  Value
+ 1st William Saliba         Arsenal   94.2
+ 2nd     Nathan Aké Manchester City   93.9
+ 3rd  Manuel Akanji Manchester City   93.9
+
+Top 3 Lowest:
+Rank         Player            Team  Value
+ 1st      Matz Sels Nott'ham Forest   51.1
+ 2nd Altay Bayındır  Manchester Utd   55.5
+ 3rd   George Hirst    Ipswich Town   55.8
+--------------------------------------------------
+
+Statistic: TotDist
+
+Top 3 Highest:
+Rank          Player      Team  Value
+ 1st Virgil van Dijk Liverpool  46352
+ 2nd    Levi Colwill   Chelsea  40277
+ 3rd  William Saliba   Arsenal  39927
+
+Top 3 Lowest:
+Rank          Player           Team  Value
+ 1st   William Osula  Newcastle Utd    126
+ 2nd Albert Grønbaek    Southampton    135
+ 3rd Odsonne Édouard Crystal Palace    230
+--------------------------------------------------
+
+Statistic: ShortCmp%
+
+Top 3 Highest:
+Rank           Player           Team  Value
+ 1st Łukasz Fabiański       West Ham  100.0
+ 2nd   Arijanet Muric   Ipswich Town  100.0
+ 3rd   Altay Bayındır Manchester Utd  100.0
+
+Top 3 Lowest:
+Rank        Player          Team  Value
+ 1st William Osula Newcastle Utd   61.5
+ 2nd  Paul Onuachu   Southampton   62.9
+ 3rd  George Hirst  Ipswich Town   66.7
+--------------------------------------------------
+
+Statistic: MedCmp%
+
+Top 3 Highest:
+Rank            Player          Team  Value
+ 1st       Robin Olsen   Aston Villa  100.0
+ 2nd Caoimhín Kelleher     Liverpool  100.0
+ 3rd   Martin Dúbravka Newcastle Utd  100.0
+
+Top 3 Lowest:
+Rank          Player          Team  Value
+ 1st            Beto       Everton   50.0
+ 2nd Albert Grønbaek   Southampton   50.0
+ 3rd   William Osula Newcastle Utd   50.0
+--------------------------------------------------
+
+Statistic: LongCmp%
+
+Top 3 Highest:
+Rank         Player           Team  Value
+ 1st Tyrell Malacia Manchester Utd  100.0
+ 2nd    Andy Irving       West Ham  100.0
+ 3rd         Antony Manchester Utd  100.0
+
+Top 3 Lowest:
+Rank         Player        Team  Value
+ 1st   Ross Stewart Southampton    0.0
+ 2nd Tyrique George     Chelsea    0.0
+ 3rd      Enes Ünal Bournemouth    0.0
+--------------------------------------------------
+
+Statistic: KP
+
+Top 3 Highest:
+Rank          Player           Team  Value
+ 1st Bruno Fernandes Manchester Utd     84
+ 2nd   Mohamed Salah      Liverpool     82
+ 3rd     Cole Palmer        Chelsea     82
+
+Top 3 Lowest:
+Rank           Player           Team  Value
+ 1st   Aaron Ramsdale    Southampton      0
+ 2nd Łukasz Fabiański       West Ham      0
+ 3rd   Woyo Coulibaly Leicester City      0
+--------------------------------------------------
+
+Statistic: Pass into 1_3
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st Virgil van Dijk       Liverpool    269
+ 2nd  Joško Gvardiol Manchester City    237
+ 3rd Youri Tielemans     Aston Villa    228
+
+Top 3 Lowest:
+Rank           Player          Team  Value
+ 1st    William Osula Newcastle Utd      0
+ 2nd Chiedozie Ogbene  Ipswich Town      0
+ 3rd   Tyrique George       Chelsea      0
+--------------------------------------------------
+
+Statistic: PPA
+
+Top 3 Highest:
+Rank          Player      Team  Value
+ 1st   Mohamed Salah Liverpool     86
+ 2nd Martin Ødegaard   Arsenal     81
+ 3rd      Alex Iwobi    Fulham     78
+
+Top 3 Lowest:
+Rank              Player         Team  Value
+ 1st      Arijanet Muric Ipswich Town      0
+ 2nd         Archie Gray    Tottenham      0
+ 3rd Armel Bella Kotchap  Southampton      0
+--------------------------------------------------
+
+Statistic: CrsPA
+
+Top 3 Highest:
+Rank           Player        Team  Value
+ 1st Antonee Robinson      Fulham     28
+ 2nd      Pedro Porro   Tottenham     26
+ 3rd     Milos Kerkez Bournemouth     23
+
+Top 3 Lowest:
+Rank           Player           Team  Value
+ 1st   Woyo Coulibaly Leicester City      0
+ 2nd   Aaron Ramsdale    Southampton      0
+ 3rd Łukasz Fabiański       West Ham      0
+--------------------------------------------------
+
+Statistic: SCA
+
+Top 3 Highest:
+Rank          Player           Team  Value
+ 1st     Cole Palmer        Chelsea  190.0
+ 2nd Bruno Fernandes Manchester Utd  169.0
+ 3rd   Mohamed Salah      Liverpool  157.0
+
+Top 3 Lowest:
+Rank         Player            Team  Value
+ 1st Woyo Coulibaly  Leicester City    0.0
+ 2nd     Willy Boly Nott'ham Forest    0.0
+ 3rd Altay Bayındır  Manchester Utd    0.0
+--------------------------------------------------
+
+Statistic: SCA90
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st  Philip Billing     Bournemouth   7.83
+ 2nd  Luis Guilherme        West Ham   6.52
+ 3rd Kevin De Bruyne Manchester City   6.08
+
+Top 3 Lowest:
+Rank         Player            Team  Value
+ 1st Woyo Coulibaly  Leicester City    0.0
+ 2nd     Willy Boly Nott'ham Forest    0.0
+ 3rd   Jason Steele        Brighton    0.0
+--------------------------------------------------
+
+Statistic: GCA
+
+Top 3 Highest:
+Rank           Player      Team  Value
+ 1st    Mohamed Salah Liverpool   26.0
+ 2nd      Bukayo Saka   Arsenal   22.0
+ 3rd Mikkel Damsgaard Brentford   21.0
+
+Top 3 Lowest:
+Rank          Player           Team  Value
+ 1st   William Osula  Newcastle Utd    0.0
+ 2nd Aaron Cresswell       West Ham    0.0
+ 3rd  Altay Bayındır Manchester Utd    0.0
+--------------------------------------------------
+
+Statistic: GCA90
+
+Top 3 Highest:
+Rank      Player           Team  Value
+ 1st Bukayo Saka        Arsenal   1.29
+ 2nd Solly March       Brighton   1.08
+ 3rd Amad Diallo Manchester Utd   0.93
+
+Top 3 Lowest:
+Rank          Player           Team  Value
+ 1st Aaron Cresswell       West Ham    0.0
+ 2nd  Aaron Ramsdale    Southampton    0.0
+ 3rd  Woyo Coulibaly Leicester City    0.0
+--------------------------------------------------
+
+Statistic: Tkl
+
+Top 3 Highest:
+Rank             Player           Team  Value
+ 1st Idrissa Gana Gueye        Everton    124
+ 2nd       Daniel Muñoz Crystal Palace    113
+ 3rd         João Gomes         Wolves    105
+
+Top 3 Lowest:
+Rank           Player        Team  Value
+ 1st   Aaron Ramsdale Southampton      0
+ 2nd Łukasz Fabiański    West Ham      0
+ 3rd             Neto Bournemouth      0
+--------------------------------------------------
+
+Statistic: TklW
+
+Top 3 Highest:
+Rank             Player           Team  Value
+ 1st Idrissa Gana Gueye        Everton     74
+ 2nd       Daniel Muñoz Crystal Palace     73
+ 3rd     Moisés Caicedo        Chelsea     64
+
+Top 3 Lowest:
+Rank         Player          Team  Value
+ 1st  William Osula Newcastle Utd      0
+ 2nd Luis Guilherme      West Ham      0
+ 3rd    Ben Godfrey  Ipswich Town      0
+--------------------------------------------------
+
+Statistic: Deff Att
+
+Top 3 Highest:
+Rank                 Player      Team  Value
+ 1st    Alexis Mac Allister Liverpool    104
+ 2nd Trent Alexander-Arnold Liverpool    103
+ 3rd             João Gomes    Wolves    102
+
+Top 3 Lowest:
+Rank            Player          Team  Value
+ 1st      Mark Travers   Bournemouth      0
+ 2nd   Martin Dúbravka Newcastle Utd      0
+ 3rd Caoimhín Kelleher     Liverpool      0
+--------------------------------------------------
+
+Statistic: Lost
+
+Top 3 Highest:
+Rank                 Player            Team  Value
+ 1st             João Gomes          Wolves     60
+ 2nd        Elliot Anderson Nott'ham Forest     57
+ 3rd Trent Alexander-Arnold       Liverpool     55
+
+Top 3 Lowest:
+Rank         Player           Team  Value
+ 1st Woyo Coulibaly Leicester City      0
+ 2nd   Tyrone Mings    Aston Villa      0
+ 3rd     Bernd Leno         Fulham      0
+--------------------------------------------------
+
+Statistic: Blocks
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st  Nathan Collins       Brentford     71
+ 2nd         Murillo Nott'ham Forest     67
+ 3rd Tyrick Mitchell  Crystal Palace     62
+
+Top 3 Lowest:
+Rank           Player        Team  Value
+ 1st   Aaron Ramsdale Southampton      0
+ 2nd Łukasz Fabiański    West Ham      0
+ 3rd   Tyrique George     Chelsea      0
+--------------------------------------------------
+
+Statistic: Sh
+
+Top 3 Highest:
+Rank         Player            Team  Value
+ 1st Nathan Collins       Brentford     51
+ 2nd    Dara O'Shea    Ipswich Town     47
+ 3rd        Murillo Nott'ham Forest     44
+
+Top 3 Lowest:
+Rank           Player            Team  Value
+ 1st Łukasz Fabiański        West Ham      0
+ 2nd   Aaron Ramsdale     Southampton      0
+ 3rd   İlkay Gündoğan Manchester City      0
+--------------------------------------------------
+
+Statistic: Pass
+
+Top 3 Highest:
+Rank              Player           Team  Value
+ 1st Alexis Mac Allister      Liverpool     55
+ 2nd     Antoine Semenyo    Bournemouth     51
+ 3rd     Tyrick Mitchell Crystal Palace     50
+
+Top 3 Lowest:
+Rank           Player         Team  Value
+ 1st   Aaron Ramsdale  Southampton      0
+ 2nd Łukasz Fabiański     West Ham      0
+ 3rd   Arijanet Muric Ipswich Town      0
+--------------------------------------------------
+
+Statistic: Int
+
+Top 3 Highest:
+Rank            Player      Team  Value
+ 1st Aaron Wan-Bissaka  West Ham     60
+ 2nd  Antonee Robinson    Fulham     57
+ 3rd  Ryan Gravenberch Liverpool     57
+
+Top 3 Lowest:
+Rank         Player         Team  Value
+ 1st Antonín Kinský    Tottenham      0
+ 2nd Arijanet Muric Ipswich Town      0
+ 3rd           Neto  Bournemouth      0
+--------------------------------------------------
+
+Statistic: Touches
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st Virgil van Dijk       Liverpool   3125
+ 2nd  Joško Gvardiol Manchester City   2903
+ 3rd    Levi Colwill         Chelsea   2728
+
+Top 3 Lowest:
+Rank              Player           Team  Value
+ 1st     Albert Grønbaek    Southampton     38
+ 2nd       William Osula  Newcastle Utd     41
+ 3rd Chidozie Obi-Martin Manchester Utd     44
+--------------------------------------------------
+
+Statistic: Def Pen
+
+Top 3 Highest:
+Rank          Player      Team  Value
+ 1st    Mark Flekken Brentford   1338
+ 2nd      Bernd Leno    Fulham   1097
+ 3rd Bart Verbruggen  Brighton   1034
+
+Top 3 Lowest:
+Rank         Player        Team  Value
+ 1st    Emi Buendía Aston Villa      0
+ 2nd Tyrique George     Chelsea      1
+ 3rd  Evan Ferguson    West Ham      1
+--------------------------------------------------
+
+Statistic: Def 3rd
+
+Top 3 Highest:
+Rank          Player      Team  Value
+ 1st    Mark Flekken Brentford   1660
+ 2nd Jordan Pickford   Everton   1494
+ 3rd      Bernd Leno    Fulham   1354
+
+Top 3 Lowest:
+Rank          Player           Team  Value
+ 1st   William Osula  Newcastle Utd      2
+ 2nd Odsonne Édouard Crystal Palace      4
+ 3rd   Callum Wilson  Newcastle Utd      5
+--------------------------------------------------
+
+Statistic: Mid 3rd
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st Virgil van Dijk       Liverpool   1719
+ 2nd  William Saliba         Arsenal   1519
+ 3rd  Joško Gvardiol Manchester City   1474
+
+Top 3 Lowest:
+Rank         Player           Team  Value
+ 1st  Alex McCarthy    Southampton      0
+ 2nd Fraser Forster      Tottenham      0
+ 3rd     Danny Ward Leicester City      0
+--------------------------------------------------
+
+Statistic: Att 3rd
+
+Top 3 Highest:
+Rank          Player           Team  Value
+ 1st   Mohamed Salah      Liverpool   1023
+ 2nd    Bryan Mbeumo      Brentford    913
+ 3rd Bruno Fernandes Manchester Utd    888
+
+Top 3 Lowest:
+Rank           Player        Team  Value
+ 1st   Aaron Ramsdale Southampton      0
+ 2nd Łukasz Fabiański    West Ham      0
+ 3rd          Alisson   Liverpool      0
+--------------------------------------------------
+
+Statistic: Att Pen
+
+Top 3 Highest:
+Rank          Player          Team  Value
+ 1st   Mohamed Salah     Liverpool    327
+ 2nd  Alexander Isak Newcastle Utd    178
+ 3rd Antoine Semenyo   Bournemouth    176
+
+Top 3 Lowest:
+Rank         Player         Team  Value
+ 1st Aaron Ramsdale  Southampton      0
+ 2nd Arijanet Muric Ipswich Town      0
+ 3rd   Mark Flekken    Brentford      0
+--------------------------------------------------
+
+Statistic: Take-Ons Att
+
+Top 3 Highest:
+Rank         Player            Team  Value
+ 1st Mohammed Kudus        West Ham    194
+ 2nd    Jeremy Doku Manchester City    185
+ 3rd  Morgan Rogers     Aston Villa    153
+
+Top 3 Lowest:
+Rank          Player         Team  Value
+ 1st Yerson Mosquera       Wolves      0
+ 2nd  Antonín Kinský    Tottenham      0
+ 3rd  Arijanet Muric Ipswich Town      0
+--------------------------------------------------
+
+Statistic: Succ%
+
+Top 3 Highest:
+Rank           Player           Team  Value
+ 1st Łukasz Fabiański       West Ham  100.0
+ 2nd      Wataru Endo      Liverpool  100.0
+ 3rd   Tyrell Malacia Manchester Utd  100.0
+
+Top 3 Lowest:
+Rank            Player           Team  Value
+ 1st Benoît Badiashile        Chelsea    0.0
+ 2nd         Ben White        Arsenal    0.0
+ 3rd         Luke Shaw Manchester Utd    0.0
+--------------------------------------------------
+
+Statistic: Tkld%
+
+Top 3 Highest:
+Rank              Player           Team  Value
+ 1st Armel Bella Kotchap    Southampton  100.0
+ 2nd          Danny Ward Leicester City  100.0
+ 3rd     Nathaniel Clyne Crystal Palace  100.0
+
+Top 3 Lowest:
+Rank           Player           Team  Value
+ 1st Łukasz Fabiański       West Ham    0.0
+ 2nd      Andy Irving       West Ham    0.0
+ 3rd   Tyrell Malacia Manchester Utd    0.0
+--------------------------------------------------
+
+Statistic: Carries
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st  Joško Gvardiol Manchester City   1886
+ 2nd Virgil van Dijk       Liverpool   1746
+ 3rd  William Saliba         Arsenal   1675
+
+Top 3 Lowest:
+Rank              Player            Team  Value
+ 1st       Harry Toffolo Nott'ham Forest     17
+ 2nd     Albert Grønbaek     Southampton     18
+ 3rd Chidozie Obi-Martin  Manchester Utd     22
+--------------------------------------------------
+
+Statistic: ProDist
+
+Top 3 Highest:
+Rank             Player            Team  Value
+ 1st Jan Paul van Hecke        Brighton   6740
+ 2nd     Joško Gvardiol Manchester City   5715
+ 3rd         Rúben Dias Manchester City   5295
+
+Top 3 Lowest:
+Rank          Player            Team  Value
+ 1st Albert Grønbaek     Southampton     15
+ 2nd   Harry Toffolo Nott'ham Forest     23
+ 3rd  Massimo Luongo    Ipswich Town     25
+--------------------------------------------------
+
+Statistic: Carries 1_3
+
+Top 3 Highest:
+Rank         Player            Team  Value
+ 1st     Alex Iwobi          Fulham    102
+ 2nd Joško Gvardiol Manchester City     92
+ 3rd  Matheus Cunha          Wolves     88
+
+Top 3 Lowest:
+Rank              Player        Team  Value
+ 1st      Aaron Ramsdale Southampton      0
+ 2nd    Łukasz Fabiański    West Ham      0
+ 3rd Armel Bella Kotchap Southampton      0
+--------------------------------------------------
+
+Statistic: CPA
+
+Top 3 Highest:
+Rank        Player            Team  Value
+ 1st Mohamed Salah       Liverpool    115
+ 2nd   Jeremy Doku Manchester City     90
+ 3rd  Noni Madueke         Chelsea     87
+
+Top 3 Lowest:
+Rank          Player     Team  Value
+ 1st     Andy Irving West Ham      0
+ 2nd Aaron Cresswell West Ham      0
+ 3rd           André   Wolves      0
+--------------------------------------------------
+
+Statistic: Mis
+
+Top 3 Highest:
+Rank        Player        Team  Value
+ 1st Mohamed Salah   Liverpool    109
+ 2nd Morgan Rogers Aston Villa    104
+ 3rd  Bryan Mbeumo   Brentford     99
+
+Top 3 Lowest:
+Rank          Player        Team  Value
+ 1st  Antonín Kinský   Tottenham      0
+ 2nd Alphonse Areola    West Ham      0
+ 3rd   Alex McCarthy Southampton      0
+--------------------------------------------------
+
+Statistic: Dis
+
+Top 3 Highest:
+Rank           Player          Team  Value
+ 1st   Mohammed Kudus      West Ham     89
+ 2nd Dejan Kulusevski     Tottenham     73
+ 3rd  Bruno Guimarães Newcastle Utd     73
+
+Top 3 Lowest:
+Rank           Player        Team  Value
+ 1st  Aaron Cresswell    West Ham      0
+ 2nd   Aaron Ramsdale Southampton      0
+ 3rd Łukasz Fabiański    West Ham      0
+--------------------------------------------------
+
+Statistic: Rec
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st Virgil van Dijk       Liverpool   2153
+ 2nd  Joško Gvardiol Manchester City   2132
+ 3rd  William Saliba         Arsenal   2056
+
+Top 3 Lowest:
+Rank          Player           Team  Value
+ 1st Albert Grønbaek    Southampton     21
+ 2nd Odsonne Édouard Crystal Palace     26
+ 3rd   William Osula  Newcastle Utd     27
+--------------------------------------------------
+
+Statistic: Rec PrgR
+
+Top 3 Highest:
+Rank             Player           Team  Value
+ 1st      Mohamed Salah      Liverpool    440
+ 2nd       Bryan Mbeumo      Brentford    319
+ 3rd Alejandro Garnacho Manchester Utd    281
+
+Top 3 Lowest:
+Rank         Player            Team  Value
+ 1st     Willy Boly Nott'ham Forest      0
+ 2nd Antonín Kinský       Tottenham      0
+ 3rd   Tyrone Mings     Aston Villa      0
+--------------------------------------------------
+
+Statistic: Fls
+
+Top 3 Highest:
+Rank          Player         Team  Value
+ 1st      João Gomes       Wolves     67
+ 2nd      Liam Delap Ipswich Town     67
+ 3rd Antoine Semenyo  Bournemouth     66
+
+Top 3 Lowest:
+Rank          Player          Team  Value
+ 1st Martin Dúbravka Newcastle Utd      0
+ 2nd    Mark Flekken     Brentford      0
+ 3rd    Mark Travers   Bournemouth      0
+--------------------------------------------------
+
+Statistic: Fld
+
+Top 3 Highest:
+Rank          Player          Team  Value
+ 1st Bruno Guimarães Newcastle Utd    100
+ 2nd   Matheus Cunha        Wolves     69
+ 3rd     John McGinn   Aston Villa     67
+
+Top 3 Lowest:
+Rank         Player      Team  Value
+ 1st    Axel Disasi   Chelsea      0
+ 2nd Tyrique George   Chelsea      0
+ 3rd        Ben Mee Brentford      0
+--------------------------------------------------
+
+Statistic: Off
+
+Top 3 Highest:
+Rank                Player            Team  Value
+ 1st Dominic Calvert-Lewin         Everton     27
+ 2nd            Chris Wood Nott'ham Forest     26
+ 3rd           Jamie Vardy  Leicester City     25
+
+Top 3 Lowest:
+Rank       Player           Team  Value
+ 1st  Will Hughes Crystal Palace      0
+ 2nd Amadou Onana    Aston Villa      0
+ 3rd  Lewis Miley  Newcastle Utd      0
+--------------------------------------------------
+
+Statistic: Crs
+
+Top 3 Highest:
+Rank          Player           Team  Value
+ 1st     Pedro Porro      Tottenham    191
+ 2nd    Bryan Mbeumo      Brentford    182
+ 3rd Bruno Fernandes Manchester Utd    172
+
+Top 3 Lowest:
+Rank           Player           Team  Value
+ 1st      André Onana Manchester Utd      0
+ 2nd            André         Wolves      0
+ 3rd Łukasz Fabiański       West Ham      0
+--------------------------------------------------
+
+Statistic: Recov
+
+Top 3 Highest:
+Rank          Player            Team  Value
+ 1st  Moisés Caicedo         Chelsea    203
+ 2nd Elliot Anderson Nott'ham Forest    196
+ 3rd Bruno Fernandes  Manchester Utd    192
+
+Top 3 Lowest:
+Rank         Player           Team  Value
+ 1st Altay Bayındır Manchester Utd      0
+ 2nd     Danny Ward Leicester City      1
+ 3rd Fraser Forster      Tottenham      1
+--------------------------------------------------
+
+Statistic: Aerl Won
+
+Top 3 Highest:
+Rank          Player          Team  Value
+ 1st        Dan Burn Newcastle Utd    134
+ 2nd  Nathan Collins     Brentford    112
+ 3rd Virgil van Dijk     Liverpool    111
+
+Top 3 Lowest:
+Rank                Player        Team  Value
+ 1st             Welington Southampton      0
+ 2nd     Kosta Nedeljković Aston Villa      0
+ 3rd Kiernan Dewsbury-Hall     Chelsea      0
+--------------------------------------------------
+
+Statistic: Aerl Lost
+
+Top 3 Highest:
+Rank               Player            Team  Value
+ 1st           Chris Wood Nott'ham Forest    128
+ 2nd Jean-Philippe Mateta  Crystal Palace     99
+ 3rd Jørgen Strand Larsen          Wolves     96
+
+Top 3 Lowest:
+Rank         Player         Team  Value
+ 1st Aaron Ramsdale  Southampton      0
+ 2nd    Ben Godfrey Ipswich Town      0
+ 3rd     Bernd Leno       Fulham      0
+--------------------------------------------------
+
+Statistic: Aerl Won%
+
+Top 3 Highest:
+Rank         Player        Team  Value
+ 1st        Alisson   Liverpool  100.0
+ 2nd Aaron Ramsdale Southampton  100.0
+ 3rd Robert Sánchez     Chelsea  100.0
+
+Top 3 Lowest:
+Rank        Player           Team  Value
+ 1st        Antony Manchester Utd    0.0
+ 2nd   Timo Werner      Tottenham    0.0
+ 3rd Andrés García    Aston Villa    0.0
+--------------------------------------------------

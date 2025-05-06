@@ -27,7 +27,7 @@ numeric_columns = [col for col in df_calc.columns if col not in exclude_columns]
 for col in numeric_columns:
     df_calc[col] = pd.to_numeric(df_calc[col], errors="coerce").fillna(0)
 
-highest_team_stats_path = os.path.join(base_dir, "highest_team_stats.csv")
+highest_team_stats_path = os.path.join(base_dir, "csv", "highest_team_stats.csv")
 
 # Tạo danh sách các thống kê mang tính tiêu cực
 negative_stats = [
